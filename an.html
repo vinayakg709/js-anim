@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body background="3d.jpg">
+	
+	<center> <canvas id="myCanvas" width="900" height="600"> </canvas> </center>
+	
+		<script>
+			var x = document.getElementById('myCanvas'),
+			y = x.getContext("2d");
+
+			 y.fillStyle = "black";
+      y.fillRect(0, 0, myCanvas.width, myCanvas.height);
+
+             var vx =1;
+             var vy =1;
+             var posx1 = 300;
+             var posy1 = 100;
+             var posx2 = 200;
+             var posy2 = 200;
+             var posx3 = 300;
+             var posy3 = 300;
+             var posy4 = 100;
+             var posx4 = 450;
+             var posx5 = 600;
+             var posy5 = 400;
+             var posx6 = 525;
+             var posy6 = 250;
+             var posx7 = 525;
+             var posy7 = 250;
+             var posx8 = 600;
+             var posy8 = 400;
+
+              //  y.shadowOffsetX = 2;
+              // y.shadowOffsetY = 2;
+              // y.shadowBlur = 4;
+              // y.shadowColor = 'rgba(102, 221, 250,.5)';
+
+
+             setInterval(frame1,30);
+
+             function frame1()
+             {
+             	console.log("white")
+             	 
+             	
+                if (posx1 > 200)
+                     {
+                      posx1 -= vx;
+             	      posy1 += vy;
+             	     }
+
+                y.fillStyle = "white";
+                y.fillRect(posx1, posy1, 10, 10);
+
+             }
+
+             setInterval(frame2,30);
+
+
+             function frame2()
+             {
+             	console.log("hu")
+             	
+             	
+             	
+                   if (posx2 < 300)
+                     {
+                       posx2 += vx;
+             	       posy2 += vy;
+                     }
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx2, posy2, 10, 10);
+             }
+
+              setInterval(frame3,30);
+ 
+
+             function frame3()
+             {
+             	console.log("huui")
+             	
+
+             	  
+                   
+                     if (posx3 > 150)
+                       {
+                       	posx3 -= vx;
+             	        posy3 += vy;
+             	       }
+                     
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx3, posy3, 10, 10);
+             }
+
+             setInterval(frame4,30);
+
+             function frame4()
+             {
+             	console.log("huui")
+             	
+             	  
+                   
+                     if (posx4 < 600)
+                       posx4 += vx;
+             	       
+                     
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx4, posy4, 10, 10);
+             }
+
+             setInterval(frame5,30);
+
+
+             function frame5()
+             {
+             	console.log("huui")
+             	
+             	  
+                   
+                     if (posx5 > 450)
+                       posx5 -= vx;
+             	       
+                     
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx5, posy5, 10, 10);
+             }
+
+             setInterval(frame6,30);
+
+             function frame6()
+             {
+             	console.log("huui")
+             	  
+                   
+                     if (posy6 > 110)
+                       posy6 -= vy;
+             	       
+                     
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx6, posy6, 10, 10);
+             }
+
+             setInterval(frame7,30);
+
+             function frame7()
+             {
+             	console.log("huui")
+             	  
+                   
+                     if (posy7 < 390)
+                       posy7 += vy;
+             	       
+                     
+
+             	y.fillStyle = "white";
+             	y.fillRect(posx7, posy7, 10, 10);
+             }
+             
+					
+
+        </script>
+            
+
+</div>
+</body>
+</html>

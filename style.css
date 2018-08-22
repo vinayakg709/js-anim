@@ -1,0 +1,155 @@
+ body {box-sizing: border-box;
+  margin-right: 0%;
+  margin-left: 0%;
+    height: 2970px;
+    
+    background: linear-gradient(#bdc3c7,#2c3e50);
+}
+.container{position: static;}
+		.image1{position:relative;
+			    width: 100%;
+			    height: auto;
+          max-height: 450px}
+		.image2{position: absolute;
+			    top: 45%;
+			    left: 8%;
+           width: 100%;
+           max-width:300px; 
+           max-height: 300px;
+           height: auto;
+           border-radius: 8px; }
+	    .aboutme{
+	    	  font-family:'Satisfy', cursive;
+	    	  text-align: left;
+	    	  font-size: 60pX;
+          padding-top: 60PX;
+          margin-left: 30PX;
+          color: #EBDEF0 ;}
+        .name1{position: absolute;
+	    	  font-family: Scope One;
+        	  top: 0px;
+        	  right: 20px;
+        	  font-size: 120pX;
+        	  color: black;
+        	text-shadow: 2px 2px 5px red;}
+        .name2{position: absolute;
+        	   top: 122px;
+        	   right: 20px;
+        	   font-family: Scope One;
+               font-size:130pX;
+               color:black;
+           text-shadow: 2px 2px 5px red;}
+
+          
+        	
+        .know{position: relative;
+	    	  font-family: Walter Turncoat,cursive;
+	    	  text-align: center;
+	    	  font-size: 30px;
+	     
+              color: #86868E; 
+              border: 3px solid #000000;
+              border-radius: 8px;
+              margin-right: 40PX;
+              margin-left:1300px;
+              opacity: 3;
+
+	    	}
+	    .know:hover{
+	    	 
+             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.99);
+	    }
+        .cont{
+          font-size: 30px;
+             color: powderblue;
+             margin-left: 40px;
+             font-family:'Satisfy', cursive;
+
+        }
+        .hr{border: 2px groove gray;
+           
+           align-content: center;
+
+        }
+        
+
+        }
+        .qual{width: 100%;
+          max-width: 500px;
+          height: auto;
+          
+          float:left;
+
+        } 
+
+
+
+        .hover11 figure img {
+  opacity: 1;
+  
+  transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+  opacity: .5;
+}
+h2{
+  float:right;
+  margin-right:550px;
+  padding-top:100px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 300%;
+  color: #E5E7E9;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    filter:Alpha(opacity=30);
+    border: 2px solid;
+    border-radius:5%;
+    
+}
+
+li {
+    float: left;
+    
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Walter Turncoat,cursive;
+}
+
+li a:hover {
+    background-color: #111;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.99);
+   
+
+}
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+}
+
+
+
+
+                 
+                       
+
+             
+	
